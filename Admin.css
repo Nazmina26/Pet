@@ -1,0 +1,42 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .topnav-right {
+	float: right;
+  }
+  .colophon {
+	padding: 2em;
+	background: #3E454C;
+	color: white;
+}
+
+.colophon a {
+	color: white;
+}
+
+.colophon a:hover,
+.colophon a:focus {
+	border-bottom: 1px solid white;
+}
+  

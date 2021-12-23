@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="95a1Iv5t2nk.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Admin.css">
+    <title>Take a pet</title>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a class= "active" href="index.html">Home</a>
+            <a href="#">Take a pet</a>
+            <a href="Placement.html">Our placement</a>
+            <div class="topnav-right">
+                <a href="Log_Form.html">Log in</a>
+                <a href="Reg_Form.html">Register</a>
+              </div>
+          </div>
+    <div class="container">
+        <h1>You can add/delete and make change in your choice</h1>
+        <hr>
+        <form onsubmit="event.preventDefault();OFS();" autocomplete="off">
+           <div>
+              <label>Which pet do you want?</label> <br>
+              <label class="validation-error hide" id="ItemNameValidationError">This field is required</label>
+              <input type="text" name="Item" id="Item">
+           </div>
+           <div>
+              <label>Animal gender</label>
+              <input type="text" name="author" id="author">
+           </div>
+           <div>
+              <label>What's your name?</label>
+              <input type="text" name="name" id="price">
+           </div>
+           <div  class="form-action-buttons">
+              <input type="submit" value="Submit">
+           </div>
+        </form>
+        <br/>
+        <table class="list" id="empList">
+           <thead>
+              <tr>
+                 <th>Which pet do you want?</th>
+                 <th>Animal gender</th>
+                 <th>What's your name?</th>
+                 <th>Actions</th>
+              </tr>
+           </thead>
+           <tbody>
+           </tbody>
+        </table>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
